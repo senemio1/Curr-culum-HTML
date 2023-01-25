@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="Styles/estilos.css">
     <script src="https://kit.fontawesome.com/9b3c1fd001.js" crossorigin="anonymous"></script>
     <script src="Scripts/misscripts.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="imagen.png">
+
+    <!-- Datos open graph-->
+    <meta property="og:title" content="Currículum Vitae" />
+    <meta property="og:type" content="CV" />
+    <meta property="og:url" content="https://senemio1.github.io/Curriculum-HTML/" />
+    <meta property="og:description" content="Este sitio web muestra el Currículum Vitae de Juan Martín Piñán" />
+
     <title>Curriculum Vitae</title>
 </head>
 
@@ -112,24 +121,22 @@
                                 class="fa fa-calendar fa-fw texto-rosado margen_derecho"></i>Noviembre 2021 - <span
                                 class="tag fondo-rosado rounded">Actualidad</span>
                             <!-- POPUP MAPS-->
-                            <button onclick="abrirPopup(cuerpo)" class="boton">
+                            <button onclick="abrirPopup(cuerpo, popup1)" class="boton">
                                 <i
                                     class="fa fa-location-dot fa-fw fa-xl texto-rosado margen_derecho margen_izquierdo"></i></button>
                             <div class="contenedor">
-                                <div class="popup sombra" id="popup">
+                                <div class="popup sombra" id="popup1">
                                     <h1 class="centrado margen_superior texto_grisosc1">Ubicación</h1>
                                     <!--<img src="Pizzurno.png" alt="Mapa de la ubicación del lugar de trabajo." style="height: 400px; width: 100%;">-->
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2525986872492!2d-58.39302168463317!3d-34.597773564690826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabf1cc0a9c1%3A0xf0d4a997304e7dba!2sPalacio%20Pizzurno%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1674493763575!5m2!1ses-419!2sar"
                                         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    <button type="button" onclick="cerrarPopup(cuerpo)"
+                                    <button type="button" onclick="cerrarPopup(cuerpo, popup1)"
                                         class="centrado popup-boton boton"> Cerrar </button>
                                 </div>
                             </div>
-
-
-                            <!-- POPUP MAPS-->
+                            <!-- FIN POPUP MAPS-->
                         </h6>
                         <p class="margen_izquierdo margen_derecho margen_superior">En el ministerio de Educación de la
                             Nación desempeño actividades de soporte a usuarios. Algunas de las cuales son: Instalación
@@ -152,7 +159,24 @@
                                 Colegio Corazón Eucarísitco de Jesús</b></h5>
                         <h6 class="texto_grisosc margen_izquierdo margen_superior"><i
                                 class="fa fa-calendar fa-fw texto-rosado margen_derecho"></i>2013 - <span
-                                class="tag fondo-rosado rounded">2019</span></h6>
+                                class="tag fondo-rosado rounded">2019</span>
+                            <!-- POPUP MAPS 2-->
+                            <button onclick="abrirPopup(cuerpo, popup2)" class="boton">
+                                <i
+                                    class="fa fa-location-dot fa-fw fa-xl texto-rosado margen_derecho margen_izquierdo"></i></button>
+                            <div class="contenedor">
+                                <div class="popup sombra" id="popup2">
+                                    <h1 class="centrado margen_superior texto_grisosc1">Ubicación</h1>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.223324313333!2d-58.59613098425183!3d-34.649062567406965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc79b5a154be1%3A0x6c2f825e822e488b!2sCoraz%C3%B3n%20Eucar%C3%ADstico%20de%20Jes%C3%BAs%20-%20Haedo!5e0!3m2!1ses-419!2sar!4v1674653679847!5m2!1ses-419!2sar"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <button type="button" onclick="cerrarPopup(cuerpo, popup2)"
+                                        class="centrado popup-boton boton"> Cerrar </button>
+                                </div>
+                            </div>
+                        <!-- FIN POPUP MAPS 2-->
+                        </h6>
                         <p class="margen_izquierdo margen_superior">Promedio: 8.25</p>
                         <hr>
                     </div>
@@ -161,7 +185,24 @@
                                 - Universidad Nacional de la Matanza</b></h5>
                         <h6 class="texto_grisosc margen_izquierdo margen_superior"><i
                                 class="fa fa-calendar fa-fw texto-rosado margen_derecho"></i>2020 - <span
-                                class="tag fondo-rosado rounded">En Curso</span></h6>
+                                class="tag fondo-rosado rounded">En Curso</span>
+                            <!-- POPUP MAPS 3-->
+                            <button onclick="abrirPopup(cuerpo, popup3)" class="boton">
+                                <i
+                                    class="fa fa-location-dot fa-fw fa-xl texto-rosado margen_derecho margen_izquierdo"></i></button>
+                            <div class="contenedor">
+                                <div class="popup sombra" id="popup3">
+                                    <h1 class="centrado margen_superior texto_grisosc1">Ubicación</h1>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3643336746663!2d-58.56499388425129!3d-34.67075316855614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1674653557887!5m2!1ses-419!2sar"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <button type="button" onclick="cerrarPopup(cuerpo, popup3)"
+                                        class="centrado popup-boton boton"> Cerrar </button>
+                                </div>
+                            </div>
+                            <!-- FIN POPUP MAPS 3-->
+                        </h6>
                         <p class="margen_izquierdo margen_superior">Materias promocionadas: 13</p>
                         <p class="margen_izquierdo margen_superior">Promedio: 7.53</p>
                         <hr>
@@ -171,7 +212,8 @@
                         <h6 class="texto_grisosc margen_izquierdo margen_superior"><i
                                 class="fa fa-calendar fa-fw texto-rosado margen_derecho"></i>2023 - <span
                                 class="tag fondo-rosado rounded">En Curso</span></h6>
-                        <p class="margen_izquierdo margen_superior">Curso especifico: Primeros pasos del desarrollo frontend.</p>
+                        <p class="margen_izquierdo margen_superior">Curso especifico: Primeros pasos del desarrollo
+                            frontend.</p>
                         <hr>
                     </div>
                 </div>
@@ -184,7 +226,7 @@
     <footer class=" contenedor rosado centrado" style="margin-top: 30px;">
         <a href="https://www.instagram.com/juan.pinan/" target="_blank"><i
                 class="texto_griscla fa-brands fa-instagram fa-xl opacidad_flotar" style="margin-top: 30px;"></i></a>
-        <a href="https://twitter.com/juan_pinan" target="_blank"><i
+        <a href="https://twitter.com/" target="_blank"><i
                 class="texto_griscla fa-brands fa-square-twitter fa-xl opacidad_flotar "></i></a>
         <a href="https://www.linkedin.com/in/juan-mart%C3%ADn-pi%C3%B1%C3%A1n-1a47361b7/" target="_blank"><i
                 class="texto_griscla fa-brands fa-linkedin fa-xl opacidad_flotar "></i></a>
